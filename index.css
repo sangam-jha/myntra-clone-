@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #fafbf6;
+    height:60px;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid #b8bfcd;
+}
+.myntra_home{
+    height:36px;
+    width:53px;
+
+}
+.logo_container{
+    margin-left: 5%;
+}
+
+.action_bar{
+    margin-right: 5%;
+}
+.nav_bar{
+    display: flex;
+    min-width:600px;
+    justify-content: space-evenly;
+    
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 17px 0px;
+        box-sizing: content-box;
+}
+.nav_bar a:hover{
+    border-bottom: 2px solid brown;
+}
+.nav_bar a sup{
+    font-weight: 400px;
+    color:#ff3f6c;
+    font-size: 10px;
+    
+}
+.search_bar{
+    height:80px;
+    width:400px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px ;
+    min-width: 200px;
+
+
+}
+.search_icon{
+    height:20px;
+    padding:2px;
+    box-sizing: content-box;
+    background-color: #f5f5f6;
+    color: rgb(150, 86, 7);
+    font-weight: 200px ;
+    border-radius: 5px 0px 0px 5px ;
+    border: 0;
+
+}
+.search_input{
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height:80px;
+    border:0;
+}
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    
+}
+
+.action_container{
+    flex-direction: column;
+    align-items: center ;
+}
+
+/* Main class  */
+.banner_container{
+    margin:20px 0;
+}
+.banner_image{
+    width:100%;
+ 
+}
+.Catogories_heading{
+    text-transform: uppercase;
+color: #3e4152;
+letter-spacing: .15em;
+font-size: 1.8em;
+margin: 50px 0 10px 30px;
+max-height: 5em;
+font-weight: 700;
+
+}
+.catogories_items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_items{
+    width: 250px;
+
+}
+
+
+/* footer contentn  */
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer_column a{
+    text-decoration: none ;
+    
+    justify-content: center ;
+     
+  color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+  line-height: normal;
+
+
+}
+
+.footer_container{
+    padding: 30px 0px 40px 0px;
+background: #FAFBFC;
+display: flex;
+justify-content: space-evenly;
+}
